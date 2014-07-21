@@ -2428,24 +2428,24 @@ h1, h2, h3, h4, h5, h6{
 
 /* Color Buttons
 ------------------------------------------------------------ */
-.decaturm-makers-orange .button-blue,
-.decaturm-makers-orange .button-gray,
-.decaturm-makers-orange .button-green,
-.decaturm-makers-orange .button-purple,
-.decaturm-makers-orange .button-red,
-.decaturm-makers-orange .button-yellow {
+.decatur-makers-orange .button-blue,
+.decatur-makers-orange .button-gray,
+.decatur-makers-orange .button-green,
+.decatur-makers-orange .button-purple,
+.decatur-makers-orange .button-red,
+.decatur-makers-orange .button-yellow {
 	text-transform: uppercase;
 	font-weight: bold;
 	margin: 0;
 	padding: 20px;
 }
 
-.decaturm-makers-orange .button-blue a,
-.decaturm-makers-orange .button-gray a,
-.decaturm-makers-orange .button-green a,
-.decaturm-makers-orange .button-purple a,
-.decaturm-makers-orange .button-red a,
-.decaturm-makers-orange .button-yellow a{
+.decatur-makers-orange .button-blue a,
+.decatur-makers-orange .button-gray a,
+.decatur-makers-orange .button-green a,
+.decatur-makers-orange .button-purple a,
+.decatur-makers-orange .button-red a,
+.decatur-makers-orange .button-yellow a{
 	color: #fff;
 	padding: 0;
 	text-align: center;
