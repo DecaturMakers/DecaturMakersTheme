@@ -2329,7 +2329,8 @@ h1, h2, h3, h4, h5, h6{
 	font-weight: bold;
 	letter-spacing: 0px;
 }
-.archive-title, .widget-title, .executive-pro-portfolio .entry-title{
+.archive-title, .widget-title,
+.executive-pro-portfolio .entry-title{
 	font-size: 24px;
 }
 
@@ -2419,4 +2420,67 @@ h1, h2, h3, h4, h5, h6{
 .decatur-makers-orange input:hover[type="reset"],
 .decatur-makers-orange input:hover[type="submit"] {
 	background-color: #F47B42;
+}
+
+/* Color Buttons
+------------------------------------------------------------ */
+.decaturm-makers-orange .button-blue,
+.decaturm-makers-orange .button-gray,
+.decaturm-makers-orange .button-green,
+.decaturm-makers-orange .button-purple,
+.decaturm-makers-orange .button-red,
+.decaturm-makers-orange .button-yellow {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0;
+	padding: 20px;
+}
+
+.decaturm-makers-orange .button-blue a,
+.decaturm-makers-orange .button-gray a,
+.decaturm-makers-orange .button-green a,
+.decaturm-makers-orange .button-purple a,
+.decaturm-makers-orange .button-red a,
+.decaturm-makers-orange .button-yellow a{
+	color: #fff;
+	padding: 0;
+	text-align: center;
+	display: block;
+	font-size: 1.5em;
+}
+
+
+.button-blue:hover,
+.button-gray:hover,
+.button-light-green:hover,
+.button-light-blue:hover,
+.button-orange:hover,
+.button-yellow:hover {
+    text-decoration: none;
+}
+
+.button-blue {
+    background-color: #0087A8;
+    border: 1px solid #0087A8;
+}
+
+.button-gray {
+    background-color: #51463D;
+    border: 1px solid #51463D;
+}
+
+
+.button-green {
+    background-color: #51B858;
+    border: 1px solid #51B858;
+}
+
+.button-red {
+    background-color: #F47B42;
+    border: 1px solid #F47B42;
+}
+
+.button-yellow {
+    background-color: #FFCB04;
+    border: 1px solid #FFCB04;
 }
