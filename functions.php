@@ -10,7 +10,7 @@ load_child_theme_textdomain( 'executive', apply_filters( 'child_theme_textdomain
 
 //* Child theme (do not remove)
 define( 'CHILD_THEME_NAME', __( 'Decatur Makers Theme', 'executive' ) );
-define( 'CHILD_THEME_URL', 'http://make.decaturmakers.org/web/theme/' );
+define( 'CHILD_THEME_URL', 'http://make.decaturmakers.org/website/theme/' );
 define( 'CHILD_THEME_VERSION', '1.0.1' );
 
 //* Add HTML5 markup structure
@@ -79,7 +79,7 @@ function executive_load_admin_styles() {
 }
 
 //* Create Portfolio Type custom taxonomy
-add_action( 'init', 'executive_type_taxonomy' );
+// add_action( 'init', 'executive_type_taxonomy' );
 function executive_type_taxonomy() {
 
 	register_taxonomy( 'portfolio-type', 'portfolio',
@@ -101,7 +101,7 @@ function executive_type_taxonomy() {
 }
 
 //* Create portfolio custom post type
-add_action( 'init', 'executive_portfolio_post_type' );
+// add_action( 'init', 'executive_portfolio_post_type' );
 function executive_portfolio_post_type() {
 
 	register_post_type( 'portfolio',
