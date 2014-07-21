@@ -2356,6 +2356,10 @@ h1, h2, h3, h4, h5, h6{
 	padding: 10px;
 }
 
+.site-footer .genesis-nav-menu{
+	background-color: transparent;
+}
+
 /* TABLET */
 
 @media only screen and (max-width: 800px){
