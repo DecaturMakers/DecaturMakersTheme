@@ -6,12 +6,12 @@ require_once( get_template_directory() . '/lib/init.php' );
 include_once( get_stylesheet_directory() . '/lib/theme-defaults.php' );
 
 //* Set Localization (do not remove)
-load_child_theme_textdomain( 'executive', apply_filters( 'child_theme_textdomain', get_stylesheet_directory() . '/languages', 'executive' ) );
+load_child_theme_textdomain( 'executive', apply_filters( 'child_theme_textdomain', get_stylesheet_directory() . '/languages', 'decaturmakers' ) );
 
 //* Child theme (do not remove)
-define( 'CHILD_THEME_NAME', __( 'Executive Pro Theme', 'executive' ) );
-define( 'CHILD_THEME_URL', 'http://my.studiopress.com/themes/executive/' );
-define( 'CHILD_THEME_VERSION', '3.0.1' );
+define( 'CHILD_THEME_NAME', __( 'Decatur Makers Theme', 'executive' ) );
+define( 'CHILD_THEME_URL', 'http://make.decaturmakers.org/web/theme/' );
+define( 'CHILD_THEME_VERSION', '1.0.1' );
 
 //* Add HTML5 markup structure
 add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list' ) );
@@ -24,9 +24,9 @@ add_action( 'wp_enqueue_scripts', 'executive_load_scripts' );
 function executive_load_scripts() {
 
 	wp_enqueue_script( 'executive-responsive-menu', get_bloginfo( 'stylesheet_directory' ) . '/js/responsive-menu.js', array( 'jquery' ), '1.0.0' );
-	
+
 	wp_enqueue_style( 'dashicons' );
-	
+
 	wp_enqueue_style( 'google-font', '//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700', array(), CHILD_THEME_VERSION );
 
 }
@@ -49,12 +49,13 @@ add_theme_support( 'custom-header', array(
 
 //* Add support for additional color style options
 add_theme_support( 'genesis-style-selector', array(
-	'executive-pro-brown'  => __( 'Executive Pro Brown', 'executive' ),
-	'executive-pro-green'  => __( 'Executive Pro Green', 'executive' ),
-	'executive-pro-orange' => __( 'Executive Pro Orange', 'executive' ),
-	'executive-pro-purple' => __( 'Executive Pro Purple', 'executive' ),
-	'executive-pro-red'    => __( 'Executive Pro Red', 'executive' ),
-	'executive-pro-teal'   => __( 'Executive Pro Teal', 'executive' ),
+	'decatur-makers-orange' => __( 'Decatur Makers Orange', 'decaturmakers' ),
+	// 'executive-pro-brown'  => __( 'Executive Pro Brown', 'executive' ),
+	// 'executive-pro-green'  => __( 'Executive Pro Green', 'executive' ),
+	// 'executive-pro-orange' => __( 'Executive Pro Orange', 'executive' ),
+	// 'executive-pro-purple' => __( 'Executive Pro Purple', 'executive' ),
+	// 'executive-pro-red'    => __( 'Executive Pro Red', 'executive' ),
+	// 'executive-pro-teal'   => __( 'Executive Pro Teal', 'executive' ),
 ) );
 
 //* Add support for 3-column footer widgets
@@ -119,7 +120,7 @@ function executive_portfolio_post_type() {
 
 		)
 	);
-	
+
 }
 
 //* Add Portfolio Type Taxonomy to columns
@@ -191,7 +192,7 @@ function executive_after_entry() {
 //* Remove comment form allowed tags
 add_filter( 'comment_form_defaults', 'executive_remove_comment_form_allowed_tags' );
 function executive_remove_comment_form_allowed_tags( $defaults ) {
-	
+
 	$defaults['comment_notes_after'] = '';
 	return $defaults;
 

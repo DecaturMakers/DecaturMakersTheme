@@ -2295,3 +2295,75 @@ Media Queries
     }
 
 }
+
+/* Decatur Makers Custom Styles */
+
+/*
+@white: #FFFFFF;
+@orange: #F47B42;
+@blue: #0087A8;
+@yellow: #FFCB04;
+@warm-light: #E0D9CE;
+@cool-light: #D9DED3;
+@pale-green: #BD7558;
+@warm-dark: #51463D;
+@cool-dark: #3D4E52;
+@dark-green: #51B858;
+@black: #000000;
+*/
+
+
+/* Executive Pro Orange
+--------------------------------------------- */
+
+.decatur-makers-orange a,
+.decatur-makers-orange .entry-title a:hover,
+.decatur-makers-orange .footer-widgets .entry-title a:hover {
+	color: #F47B42;
+}
+
+.decatur-makers-orange .genesis-nav-menu a {
+	color: #666;
+}
+
+.decatur-makers-orange .entry-title a,
+.decatur-makers-orange .site-title a,
+.decatur-makers-orange .site-title a:hover,
+.decatur-makers-orange .site-footer a {
+	color: #222;
+}
+
+.decatur-makers-orange .content .entry-header .entry-meta .entry-comments-link a,
+.decatur-makers-orange .footer-widgets .entry-title a,
+.decatur-makers-orange .genesis-nav-menu .current-menu-item > a,
+.decatur-makers-orange .genesis-nav-menu a:active,
+.decatur-makers-orange a.button {
+	color: #fff;
+}
+
+.decatur-makers-orange .comment-header .comment-meta a,
+.decatur-makers-orange .comment-metadata a {
+	color: #bbb;
+}
+
+.decatur-makers-orange .enews-widget input[type="submit"],
+.decatur-makers-orange .content .entry-header .entry-meta .entry-comments-link,
+.decatur-makers-orange .genesis-nav-menu .current-menu-item > a,
+.decatur-makers-orange .archive-pagination li a,
+.decatur-makers-orange a.button,
+.decatur-makers-orange button,
+.decatur-makers-orange input[type="button"],
+.decatur-makers-orange input[type="reset"],
+.decatur-makers-orange input[type="submit"] {
+	background-color: #F47B42;
+}
+
+.decatur-makers-orange .archive-pagination li a:hover,
+.decatur-makers-orange .archive-pagination li.active a,
+.decatur-makers-orange a:hover.button,
+.decatur-makers-orange button:hover,
+.decatur-makers-orange input:hover[type="button"],
+.decatur-makers-orange input:hover[type="reset"],
+.decatur-makers-orange input:hover[type="submit"] {
+	background-color: #F47B42;
+}
