@@ -919,7 +919,7 @@ Site Header
 	font-weight: 700;
 	float: left;
 	overflow: hidden;
-	width: 320px;
+	width: 420px;
 }
 
 .site-title {
@@ -962,8 +962,8 @@ Site Header
 .header-image .site-title a {
 	float: left;
 	margin: 0;
-	max-width: 260px;
-	min-height: 100px;
+	max-width: 360px;
+	min-height: 120px;
 	padding: 0;
 	width: 100%;
 }
@@ -974,7 +974,7 @@ Site Header
 
 .site-header .widget-area {
 	float: right;
-	width: 820px;
+	width: 720px;
 }
 
 .site-header .widget {
