@@ -41,8 +41,8 @@ add_theme_support( 'custom-background' );
 
 //* Add support for custom header
 add_theme_support( 'custom-header', array(
-	'width'           => 260,
-	'height'          => 100,
+	'width'           => 360,
+	'height'          => 120,
 	'header-selector' => '.site-title a',
 	'header-text'     => false
 ) );
@@ -224,3 +224,12 @@ genesis_register_sidebar( array(
 	'name'        => __( 'After Entry', 'executive' ),
 	'description' => __( 'This is the after entry widget area.', 'executive' ),
 ) );
+
+
+/* Russell's Customizations */
+
+function decaturmakers_mime_types( $mimes ){
+	$mimes['svg'] = 'image/svg+xml';
+	return $mimes;
+}
+add_filter( 'upload_mimes', 'decaturmakers_mime_types' );
