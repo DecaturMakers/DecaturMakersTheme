@@ -234,8 +234,8 @@ function decaturmakers_mime_types( $mimes ){
 }
 add_filter( 'upload_mimes', 'decaturmakers_mime_types' );
 
-add_action( 'wp_head', 'decatur_makers_icons' );
-function decatur_makers_icons(){ ?>
+add_action( 'wp_head', 'decaturmakers_icons' );
+function decaturmakers_icons(){ ?>
 <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/icons/favicon.ico">
 <link rel="apple-touch-icon" sizes="57x57" href="<?php echo get_stylesheet_directory_uri(); ?>/icons/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_stylesheet_directory_uri(); ?>/icons/apple-touch-icon-114x114.png">
