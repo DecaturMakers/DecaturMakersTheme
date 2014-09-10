@@ -234,6 +234,7 @@ function decaturmakers_mime_types( $mimes ){
 }
 add_filter( 'upload_mimes', 'decaturmakers_mime_types' );
 
+remove_action( 'wp_head', 'genesis_load_favicon' );
 add_action( 'wp_head', 'decaturmakers_icons' );
 function decaturmakers_icons(){ ?>
 <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/icons/favicon.ico">
