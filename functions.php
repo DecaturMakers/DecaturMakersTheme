@@ -236,21 +236,21 @@ add_filter( 'upload_mimes', 'decaturmakers_mime_types' );
 
 add_action( 'wp_head', 'decatur_makers_icons' );
 function decatur_makers_icons(){ ?>
-<link rel="shortcut icon" href="/icons/favicon.ico">
-<link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/icons/apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-touch-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-touch-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/icons/apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-touch-icon-152x152.png">
-<link rel="icon" type="image/png" href="/icons/favicon-196x196.png" sizes="196x196">
-<link rel="icon" type="image/png" href="/icons/favicon-160x160.png" sizes="160x160">
-<link rel="icon" type="image/png" href="/icons/favicon-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="/icons/favicon-16x16.png" sizes="16x16">
-<link rel="icon" type="image/png" href="/icons/favicon-32x32.png" sizes="32x32">
+<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/icons/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="<?php echo get_stylesheet_directory_uri(); ?>/icons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_stylesheet_directory_uri(); ?>/icons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_stylesheet_directory_uri(); ?>/icons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="<?php echo get_stylesheet_directory_uri(); ?>/icons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="<?php echo get_stylesheet_directory_uri(); ?>/icons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="<?php echo get_stylesheet_directory_uri(); ?>/icons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="<?php echo get_stylesheet_directory_uri(); ?>/icons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="<?php echo get_stylesheet_directory_uri(); ?>/icons/apple-touch-icon-152x152.png">
+<link rel="icon" type="image/png" href="<?php echo get_stylesheet_directory_uri(); ?>/icons/favicon-196x196.png" sizes="196x196">
+<link rel="icon" type="image/png" href="<?php echo get_stylesheet_directory_uri(); ?>/icons/favicon-160x160.png" sizes="160x160">
+<link rel="icon" type="image/png" href="<?php echo get_stylesheet_directory_uri(); ?>/icons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="<?php echo get_stylesheet_directory_uri(); ?>/icons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="<?php echo get_stylesheet_directory_uri(); ?>/icons/favicon-32x32.png" sizes="32x32">
 <meta name="msapplication-TileColor" content="#f2f2f2">
-<meta name="msapplication-TileImage" content="/icons/mstile-144x144.png">
-<meta name="msapplication-config" content="/icons/browserconfig.xml">
+<meta name="msapplication-TileImage" content="<?php echo get_stylesheet_directory_uri(); ?>/icons/mstile-144x144.png">
+<meta name="msapplication-config" content="<?php echo get_stylesheet_directory_uri(); ?>/icons/browserconfig.xml">
 <?php }
